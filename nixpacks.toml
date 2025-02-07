@@ -1,0 +1,8 @@
+[phases.setup]
+commands = ["cd railway-backend && mvn clean package"]
+
+[phases.build]
+commands = ["echo Build phase completed"]
+
+[phases.start]
+commands = ["java -jar railway-backend/target/*.jar"]
